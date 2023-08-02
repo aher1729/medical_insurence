@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "5f0e7bfd-3a58-4f97-b05e-25b93c6dbca0",
+		"name": "medical_insurence",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28256115"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "  http://127.0.0.1:5004/medical_insurence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "bmi",
+							"value": "44",
+							"type": "text"
+						},
+						{
+							"key": "children",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "smoker",
+							"value": "no",
+							"type": "text"
+						},
+						{
+							"key": "region",
+							"value": "northeast",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5004/medical_insurence",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5004",
+					"path": [
+						"medical_insurence"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
