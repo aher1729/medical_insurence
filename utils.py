@@ -42,3 +42,6 @@ class MedicalInsurence():
         predicted_charges = np.around(self.model.predict(test_array)[0],3)
         return predicted_charges
 
+if __name__ == "__main__":
+    Obj = MedicalInsurence(age,gender,bmi,children,smoker,region)
+    Obj.get_predicted_price()
